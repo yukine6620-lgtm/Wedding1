@@ -1,0 +1,11 @@
+D:\research\wedding\WeddingInvitation2.Domain\bin\Debug\net10.0\WeddingInvitation2.Domain.deps.json
+D:\research\wedding\WeddingInvitation2.Domain\bin\Debug\net10.0\WeddingInvitation2.Domain.dll
+D:\research\wedding\WeddingInvitation2.Domain\bin\Debug\net10.0\WeddingInvitation2.Domain.pdb
+D:\research\wedding\WeddingInvitation2.Domain\obj\Debug\net10.0\WeddingInvitation2.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\research\wedding\WeddingInvitation2.Domain\obj\Debug\net10.0\WeddingInvitation2.Domain.AssemblyInfoInputs.cache
+D:\research\wedding\WeddingInvitation2.Domain\obj\Debug\net10.0\WeddingInvitation2.Domain.AssemblyInfo.cs
+D:\research\wedding\WeddingInvitation2.Domain\obj\Debug\net10.0\WeddingInvitation2.Domain.csproj.CoreCompileInputs.cache
+D:\research\wedding\WeddingInvitation2.Domain\obj\Debug\net10.0\WeddingInvitation2.Domain.dll
+D:\research\wedding\WeddingInvitation2.Domain\obj\Debug\net10.0\refint\WeddingInvitation2.Domain.dll
+D:\research\wedding\WeddingInvitation2.Domain\obj\Debug\net10.0\WeddingInvitation2.Domain.pdb
+D:\research\wedding\WeddingInvitation2.Domain\obj\Debug\net10.0\ref\WeddingInvitation2.Domain.dll

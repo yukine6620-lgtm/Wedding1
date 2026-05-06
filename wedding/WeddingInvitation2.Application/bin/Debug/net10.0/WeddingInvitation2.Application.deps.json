@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "WeddingInvitation2.Application/1.0.0": {
+        "dependencies": {
+          "WeddingInvitation2.Domain": "1.0.0"
+        },
+        "runtime": {
+          "WeddingInvitation2.Application.dll": {}
+        }
+      },
+      "WeddingInvitation2.Domain/1.0.0": {
+        "runtime": {
+          "WeddingInvitation2.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WeddingInvitation2.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WeddingInvitation2.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
