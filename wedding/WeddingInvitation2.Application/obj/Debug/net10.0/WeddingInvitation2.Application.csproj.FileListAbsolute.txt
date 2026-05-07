@@ -13,3 +13,4 @@ D:\research\wedding\WeddingInvitation2.Application\obj\Debug\net10.0\WeddingInvi
 D:\research\wedding\WeddingInvitation2.Application\obj\Debug\net10.0\refint\WeddingInvitation2.Application.dll
 D:\research\wedding\WeddingInvitation2.Application\obj\Debug\net10.0\WeddingInvitation2.Application.pdb
 D:\research\wedding\WeddingInvitation2.Application\obj\Debug\net10.0\ref\WeddingInvitation2.Application.dll
+D:\research\wedding\WeddingInvitation2.Application\obj\Debug\net10.0\WeddingInvitation2.Application.sourcelink.json

@@ -17,3 +17,4 @@ D:\research\wedding\WeddingInvitation2.Infrastructure\obj\Debug\net10.0\refint\W
 D:\research\wedding\WeddingInvitation2.Infrastructure\obj\Debug\net10.0\WeddingInvitation2.Infrastructure.pdb
 D:\research\wedding\WeddingInvitation2.Infrastructure\obj\Debug\net10.0\WeddingInvitation2.Infrastructure.genruntimeconfig.cache
 D:\research\wedding\WeddingInvitation2.Infrastructure\obj\Debug\net10.0\ref\WeddingInvitation2.Infrastructure.dll
+D:\research\wedding\WeddingInvitation2.Infrastructure\obj\Debug\net10.0\WeddingInvitation2.Infrastructure.sourcelink.json

@@ -49,12 +49,20 @@ export default function DashboardPage() {
           <h1 className="text-2xl font-serif font-bold text-[#5C3D2E]">
             Thiệp của tôi
           </h1>
-          <Link
-            href="/templates"
-            className="bg-[#C9956C] hover:bg-[#b8845b] text-white text-sm font-semibold px-5 py-2 rounded-full transition-colors"
-          >
-            + Tạo thiệp mới
-          </Link>
+          <div className="flex gap-2">
+            <Link
+              href="/editor/ai-generate"
+              className="border border-[#C9956C] text-[#C9956C] hover:bg-[#FDF0E8] text-sm font-semibold px-4 py-2 rounded-full transition-colors flex items-center gap-1"
+            >
+              ✨ Tạo bằng AI
+            </Link>
+            <Link
+              href="/templates"
+              className="bg-[#C9956C] hover:bg-[#b8845b] text-white text-sm font-semibold px-5 py-2 rounded-full transition-colors"
+            >
+              + Tạo thiệp mới
+            </Link>
+          </div>
         </div>
 
         {isLoading ? (
@@ -112,6 +120,14 @@ export default function DashboardPage() {
                   >
                     Xem thiệp
                   </Link>
+                  {inv.status !== "Paid" && (
+                    <Link
+                      href={`/payment?invitationId=${inv.id}`}
+                      className="flex-1 text-center text-sm bg-[#C9956C] hover:bg-[#b8845b] text-white py-1.5 rounded-lg transition-colors"
+                    >
+                      Publish
+                    </Link>
+                  )}
                 </div>
               </div>
             ))}

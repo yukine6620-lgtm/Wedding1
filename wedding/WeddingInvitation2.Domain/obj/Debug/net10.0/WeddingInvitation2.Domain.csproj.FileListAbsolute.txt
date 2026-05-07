@@ -9,3 +9,4 @@ D:\research\wedding\WeddingInvitation2.Domain\obj\Debug\net10.0\WeddingInvitatio
 D:\research\wedding\WeddingInvitation2.Domain\obj\Debug\net10.0\refint\WeddingInvitation2.Domain.dll
 D:\research\wedding\WeddingInvitation2.Domain\obj\Debug\net10.0\WeddingInvitation2.Domain.pdb
 D:\research\wedding\WeddingInvitation2.Domain\obj\Debug\net10.0\ref\WeddingInvitation2.Domain.dll
+D:\research\wedding\WeddingInvitation2.Domain\obj\Debug\net10.0\WeddingInvitation2.Domain.sourcelink.json

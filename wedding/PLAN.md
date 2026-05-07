@@ -82,29 +82,29 @@
 
 ### AI Service
 
-- [ ] Chọn provider: OpenAI GPT-4o-mini
-- [ ] Backend AIService: GenerateIntent
-- [ ] Backend AIService: GenerateContent
-- [ ] Backend AIService: GenerateLayout
-- [ ] Backend AIService: Merge (content + layout → final JSON)
-- [ ] Validation layer (kiểm tra JSON output có đủ theme + sections)
-- [ ] Retry strategy nếu AI trả JSON không hợp lệ
-- [ ] Template fallback nếu AI fail hoàn toàn
-- [ ] Frontend: form nhập thông tin cặp đôi → gọi AI → render thiệp
+- [x] Chọn provider: OpenAI GPT-4o-mini
+- [x] Backend AIService: GenerateIntent
+- [x] Backend AIService: GenerateContent
+- [x] Backend AIService: GenerateLayout
+- [x] Backend AIService: Merge (content + layout → final JSON)
+- [x] Validation layer (kiểm tra JSON output có đủ theme + sections)
+- [x] Retry strategy nếu AI trả JSON không hợp lệ
+- [x] Template fallback nếu AI fail hoàn toàn
+- [x] Frontend: form nhập thông tin cặp đôi → gọi AI → render thiệp
 
 ### Payment
 
-- [ ] Tích hợp MoMo (thị trường VN)
-- [ ] Payment flow: Publish → check paid → redirect → webhook → update DB
-- [ ] Paywall tại bước Publish / Download
-- [ ] Xử lý webhook MoMo (verify signature, update status)
-- [ ] Trang thanh toán thành công / thất bại
+- [x] Tích hợp MoMo (thị trường VN)
+- [x] Payment flow: Publish → check paid → redirect → webhook → update DB
+- [x] Paywall tại bước Publish / Download
+- [x] Xử lý webhook MoMo (verify signature, update status)
+- [x] Trang thanh toán thành công / thất bại
 
 ### RSVP
 
-- [ ] API: POST /api/rsvp
-- [ ] Frontend: RSVP form trên trang thiệp public
-- [ ] Lưu RSVP vào DB (Name, Phone, Status, Message)
+- [x] API: POST /api/rsvp
+- [x] Frontend: RSVP form trên trang thiệp public
+- [x] Lưu RSVP vào DB (Name, Phone, Status, Message)
 
 ### Deliverable Phase 3
 > ✅ User nhập tên → AI tạo thiệp → chỉnh → publish → trả tiền → share link

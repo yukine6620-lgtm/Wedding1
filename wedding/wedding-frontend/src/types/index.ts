@@ -63,3 +63,50 @@ export interface InvitationSchema {
   theme: InvitationTheme;
   sections: InvitationSection[];
 }
+
+// AI
+export interface GenerateInvitationRequest {
+  groomName: string;
+  brideName: string;
+  weddingDate: string;
+  weddingTime: string;
+  venue: string;
+  style: "romantic" | "modern" | "traditional" | "minimalist";
+  additionalInfo?: string;
+}
+
+export interface GenerateInvitationResponse {
+  jsonData: string;
+  isAiGenerated: boolean;
+  warning?: string;
+}
+
+// RSVP
+export interface RsvpRequest {
+  invitationId: string;
+  name: string;
+  phone: string;
+  status: "Attending" | "NotAttending" | "Maybe";
+  message?: string;
+}
+
+export interface RsvpDto {
+  id: string;
+  invitationId: string;
+  name: string;
+  phone: string;
+  status: string;
+  message: string;
+  createdAt: string;
+}
+
+// Payment
+export interface PaymentRequest {
+  invitationId: string;
+  returnUrl: string;
+}
+
+export interface PaymentResponse {
+  payUrl: string;
+  orderId: string;
+}

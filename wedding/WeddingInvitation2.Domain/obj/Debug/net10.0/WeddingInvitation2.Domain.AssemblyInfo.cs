@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WeddingInvitation2.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cc9aa9eceb6e7c6a089408c2371daeb8fd532fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("WeddingInvitation2.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WeddingInvitation2.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

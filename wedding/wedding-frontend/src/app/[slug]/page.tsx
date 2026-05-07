@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import type { InvitationDto, InvitationSchema } from "@/types";
+import RsvpSection from "@/components/sections/RsvpSection";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:5185";
 
@@ -70,9 +71,17 @@ export default async function PublicInvitationPage({
             <p className="text-gray-500">Thiệp đang được chuẩn bị...</p>
           </div>
         ) : (
-          sections.map((section) => (
-            <PublicSectionRenderer key={section.id} section={section} theme={theme} />
-          ))
+          sections.map((section) =>
+            section.type === "rsvp" ? (
+              <RsvpSection
+                key={section.id}
+                section={section}
+                invitationId={invitation.id}
+              />
+            ) : (
+              <PublicSectionRenderer key={section.id} section={section} theme={theme} />
+            )
+          )
         )}
       </div>
 
@@ -168,34 +177,8 @@ function PublicSectionRenderer({
     }
 
     case "rsvp":
-      return (
-        <div className="py-10 text-center">
-          <h2 className="text-2xl font-semibold mb-6 text-gray-700">
-            Xác nhận tham dự
-          </h2>
-          <div className="max-w-sm mx-auto space-y-3">
-            <input
-              className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm outline-none focus:border-[#C9956C]"
-              placeholder="Họ và tên"
-            />
-            <input
-              className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm outline-none focus:border-[#C9956C]"
-              placeholder="Số điện thoại"
-            />
-            <select className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm outline-none focus:border-[#C9956C]">
-              <option>Tôi sẽ tham dự</option>
-              <option>Tôi không thể tham dự</option>
-              <option>Có thể tham dự</option>
-            </select>
-            <button
-              className="w-full text-white font-semibold py-2.5 rounded-lg transition-colors"
-              style={{ backgroundColor: theme.primaryColor }}
-            >
-              Xác nhận
-            </button>
-          </div>
-        </div>
-      );
+      // Handled by RsvpSection component at the page level
+      return null;
 
     default:
       return null;
